@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -23,6 +24,7 @@ const TemplateWrapper = ({ children }) => (
     />
     <Navbar />
     {children()}
+    <Footer />
   </div>
 );
 
