@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="hero is-info is-large">
+    <section className="hero is-primary is-bold is-large">
       <div className="hero-body">
         <div className="container">
           <h1 className="title">Hi, we're Anduin.</h1>

@@ -1,9 +1,27 @@
 @import '~bulma/sass/utilities/initial-variables';
 
+$primary: #1b1564;
+$solitude: #ecebf6;
+$alabaster: #fafafa;
+$blackrock: #0b0831;
 $family-primary: 'Source Sans Pro';
 
 @import '~bulma/bulma.sass';
 
-.awd-grey {
-  background-color: #ECEBF6
+.awd_bg-solitude {
+  background-color: $solitude;
+}
+
+.awd_bg-alabaster {
+  background-color: $alabaster;
+}
+
+.awd_bg-primary {
+  background-color: $primary;
+  color: $alabaster;
+}
+
+.awd_bg-blackrock {
+  background-color: $blackrock;
+  color: $alabaster;
 }
