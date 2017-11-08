@@ -26,3 +26,8 @@ $family-primary: 'Source Sans Pro';
   background-color: $blackrock;
   color: $alabaster;
 }
+
+.bg {
+  background: linear-gradient(to top right, #fafafa, #ecebf6);
+  box-shadow: 1px 1px 4px #7a74c5;
+}

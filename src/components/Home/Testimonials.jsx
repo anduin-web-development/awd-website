@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ImgWrapper = styled.div`
+const W = styled.div`
   height: 200px;
   width: 200px;
   border: solid 5px #1b1564;
   border-radius: 100px;
 `;
+const Wrapper = props => <W className="bg">{props.children}</W>;
 
 const Testimonials = () => {
   return (
@@ -14,9 +15,9 @@ const Testimonials = () => {
       <h2 className="title is-2 has-text-centered">Testimonials</h2>
       <div className="columns">
         <div className="column is-3">
-          <ImgWrapper>
+          <Wrapper>
             <img src="" alt="" />
-          </ImgWrapper>
+          </Wrapper>
         </div>
         <div className="column is-9 content is-size-4">
           <p>
@@ -41,9 +42,9 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="column is-3">
-          <ImgWrapper>
+          <Wrapper>
             <img src="" alt="" />
-          </ImgWrapper>
+          </Wrapper>
         </div>
       </div>
     </div>

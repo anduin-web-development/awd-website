@@ -10,11 +10,8 @@ import hostingMaintenance from '../../assets/hosting-maintenance.svg';
 
 const Card = styled.div``;
 
-const ImgWrapper = styled.div`
+const W = styled.div`
   align-items: center;
-  background-color: #ecebf6;
-  border: solid 5px #1b1564;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   height: 240px;
@@ -23,8 +20,7 @@ const ImgWrapper = styled.div`
   padding: 20px;
   width: 100%;
 `;
-
-const Img = styled.img``;
+const Wrapper = props => <W className="bg">{props.children}</W>;
 
 const Services = () => {
   return (
@@ -32,9 +28,9 @@ const Services = () => {
       <h2 className="title is-2 has-text-centered">Services</h2>
       <div className="columns">
         <div className="column">
-          <ImgWrapper>
-            <Img src={consultation} alt="" />
-          </ImgWrapper>
+          <Wrapper>
+            <img src={consultation} alt="" />
+          </Wrapper>
           <div className="content">
             <h3 className="title is-3">Consultation</h3>
             <p>
@@ -45,9 +41,9 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <ImgWrapper>
+          <Wrapper>
             <img src={graphicDesign} alt="" />
-          </ImgWrapper>
+          </Wrapper>
           <div className="content">
             <h3 className="title is-3">Graphic Design</h3>
             <p>
@@ -58,9 +54,9 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <ImgWrapper>
+          <Wrapper>
             <img src={staticWebsite} alt="" />
-          </ImgWrapper>
+          </Wrapper>
           <div className="content">
             <h3 className="title is-3">Static Websites</h3>
             <p>
@@ -73,9 +69,9 @@ const Services = () => {
       </div>
       <div className="columns">
         <div className="column">
-          <ImgWrapper>
+          <Wrapper>
             <img src={customFeatures} alt="" />
-          </ImgWrapper>
+          </Wrapper>
           <div className="content">
             <h3 className="title is-3">Custom Features</h3>
             <p>
@@ -86,9 +82,9 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <ImgWrapper>
+          <Wrapper>
             <img src={webApplications} alt="" />
-          </ImgWrapper>
+          </Wrapper>
           <div className="content">
             <h3 className="title is-3">Web Applications</h3>
             <p>
@@ -99,9 +95,9 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <ImgWrapper>
+          <Wrapper>
             <img src={hostingMaintenance} alt="" />
-          </ImgWrapper>
+          </Wrapper>
           <div className="content">
             <h3 className="title is-3">Hosting & Applications</h3>
             <p>
