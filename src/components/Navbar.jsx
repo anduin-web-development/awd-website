@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'gatsby-link';
 
 export class Navbar extends Component {
   render() {
@@ -14,15 +15,18 @@ export class Navbar extends Component {
         <div className="navbar-menu">
           <div className="navbar-start" />
           <div className="navbar-end">
-            <a href="" className="navbar-item">
-              Link
-            </a>
-            <a href="" className="navbar-item">
-              Link
-            </a>
-            <a href="" className="navbar-item">
-              Link
-            </a>
+            <Link to="/" className="navbar-item">
+              Home
+            </Link>
+            <Link to="/about" className="navbar-item">
+              About
+            </Link>
+            <Link to="/pricing" className="navbar-item">
+              Pricing
+            </Link>
+            <Link to="/contact" className="navbar-item">
+              Contact
+            </Link>
           </div>
         </div>
       </nav>

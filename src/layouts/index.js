@@ -10,7 +10,7 @@ import './index.scss';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Anduin Web Development"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
@@ -19,7 +19,7 @@ const TemplateWrapper = ({ children }) => (
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
-        }
+        },
       ]}
     />
     <Navbar />
