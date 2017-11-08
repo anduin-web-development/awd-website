@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Hero from '../components/Hero';
+import Hero from '../components/Home/Hero';
+import Mission from '../components/Home/Mission';
 import Services from '../components/Home/Services';
 import Testimonials from '../components/Home/Testimonials';
 import styled from 'styled-components';
@@ -10,7 +11,7 @@ const IndexPage = () => (
     <Hero />
     <section className="section awd_bg-solitude">
       <div className="container">
-        <h2 className="subtitle">A business card and an address...</h2>
+        <Mission />
       </div>
     </section>
     <section className="section awd_bg-alabaster">
