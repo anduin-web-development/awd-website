@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Heel from '../components/Heel';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -25,6 +26,7 @@ const TemplateWrapper = ({ children }) => (
     <Navbar />
     {children()}
     <Footer />
+    <Heel />
   </div>
 );
 
