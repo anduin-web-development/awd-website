@@ -10,37 +10,46 @@ const Img = styled.img`
   width: 50px;
 `;
 
-const Social = styled.div`
-  display: flex;
-  justify-content: space-around;
+const SocialLink = styled.a`
+  margin-right: 1.5rem;
 `;
 
 const Footer = () => {
   return (
-    <footer className="footer awd_bg-primary">
+    <footer className="footer">
       <div className="container">
         <div className="columns">
           <div className="column is-3 content">
-            <Link to="">Terms & Privacy</Link>
+            <h5 className="title is-5 grn-underline">Site</h5>
+            <Link to="/terms-and-privacy">Terms & Privacy</Link>
             <br />
-            <Link to="">Sitemap</Link>
+            <Link to="/sitemap">Sitemap</Link>
+            <br />
+            <br />
+            <p>Anduin Web Development is based in San Diego, CA.</p>
+          </div>
+          <div className="column is-3 content">
+            <h5 className="title is-5 grn-underline">Site</h5>
+            <Link to="/terms-and-privacy">Terms & Privacy</Link>
+            <br />
+            <Link to="/sitemap">Sitemap</Link>
             <br />
           </div>
-          <div className="column is-3 is-offset-6">
-            <Social>
-              <a href="">
+          <div className="column is-3 is-offset-3">
+            <h5 className="title is-5 grn-underline">Social</h5>
+            <div>
+              <SocialLink href="">
                 <Img src={github} alt="Github Icon" />
-              </a>
-              <a href="">
+              </SocialLink>
+              <SocialLink href="">
                 <Img src={linkedin} alt="LinkedIn Icon" />
-              </a>
-              <a href="">
+              </SocialLink>
+              <SocialLink href="">
                 <Img src={twitter} alt="Twitter Icon" />
-              </a>
-            </Social>
+              </SocialLink>
+            </div>
           </div>
         </div>
-        <p className="has-text-centered">&copy; Anduin Web Development 2017</p>
       </div>
     </footer>
   );

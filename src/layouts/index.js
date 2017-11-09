@@ -22,7 +22,9 @@ const TemplateWrapper = ({ children }) => (
           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
         },
       ]}
-    />
+    >
+      <html lang="en" className="has-navbar-fixed-top" />
+    </Helmet>
     <Navbar />
     {children()}
     <Footer />

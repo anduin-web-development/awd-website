@@ -4,8 +4,11 @@ import Link from 'gatsby-link';
 export class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar is-primary">
+      <nav className="navbar is-primary is-fixed-top">
         <div className="navbar-brand">
+          <Link to="/" className="navbar-item">
+            Anduin Web Development
+          </Link>
           <div className="navbar-burger">
             <span />
             <span />
