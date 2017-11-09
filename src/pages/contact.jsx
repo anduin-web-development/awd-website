@@ -1,41 +1,21 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
+import ContactForm from '../components/ContactForm';
+import Section from '../components/Section';
 
 const Contact = () => {
   return (
     <div>
       <PageHeader bgUrl="">Contact</PageHeader>
-      <section className="section">
-        <div className="container">
-          <form action="">
-            <div className="field">
-              <label htmlFor="" className="label">
-                Name
-              </label>
-              <div className="control">
-                <input type="text" className="input" />
-              </div>
-            </div>
-            <div className="field">
-              <label htmlFor="" className="label">
-                Email
-              </label>
-              <div className="control">
-                <input type="text" className="input" />
-              </div>
-            </div>
-            <div className="field">
-              <label htmlFor="" className="label">
-                Message
-              </label>
-              <div className="control">
-                <textarea type="text" className="textarea" />
-              </div>
-            </div>
-            <button className="button is-primary">Submit</button>
-          </form>
-        </div>
-      </section>
+      <Section containerClass="content has-text-centered">
+        <h2 className="title is-2">Short Rundown</h2>
+        <p className="is-size-4">We're proudly based in San Diego, CA.</p>
+      </Section>
+
+      <Section>
+        <p className="content">We're proudly based in San Diego, CA.</p>
+        <ContactForm />
+      </Section>
     </div>
   );
 };
