@@ -18,8 +18,8 @@ export class Navbar extends Component {
             <Link to="/" className="navbar-item">
               Home
             </Link>
-            <Link to="/about" className="navbar-item">
-              About
+            <Link to="/team" className="navbar-item">
+              Team
             </Link>
             <Link to="/pricing" className="navbar-item">
               Pricing
