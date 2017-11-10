@@ -1,13 +1,16 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Hi, we're Anduin.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+***
+## We build modern websites for growing businesses in professional sectors.
+***
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+We're web developers. But more than that, we're partners. Whether you need a simple single-page website, or a custom application, we'll help you bring your business to the web - and we’ll make sure your web presence is in keeping with your company's identity and values. So you can focus on building your business.
 
-## Deploy
+We offer services ranging from consultation, to graphic design, to custom web application development.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+If you're a developer and are interested in getting involved, get in touch:
+<mailto:admin@anduin.io>
+
+***
+(c) 2017 Anduin Web Development, San Diego, CA.
+***
