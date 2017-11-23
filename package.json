@@ -9,6 +9,7 @@
     "gatsby-link": "^1.6.24",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.13",
+    "raf": "^3.4.0",
     "styled-components": "^2.2.3"
   },
   "keywords": [
