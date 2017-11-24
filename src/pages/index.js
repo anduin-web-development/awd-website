@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Section from '../components/Section';
+import Anchor from '../components/Anchor';
 import ContactForm from '../components/ContactForm';
+import Section from '../components/Section';
 import Hero from '../components/Home/Hero';
 import Mission from '../components/Home/Mission';
 import Services from '../components/Home/Services';
@@ -21,6 +22,7 @@ const IndexPage = () => (
       <Testimonials />
     </Section>
     <Section>
+      <Anchor id="contact" />
       <h3 className="title is-3 has-text-centered">
         Get in touch! The first coffee is on us.
       </h3>

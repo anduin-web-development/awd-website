@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import Anchor from '../Anchor';
 
 const Mission = () => {
   return (
     <div className="has-text-centered">
+      <Anchor id="mission" />
       <h2 className="title is-2 has-text-white">Mission</h2>
       <div className="columns">
         <div className="column is-8 is-offset-2 content is-size-4">

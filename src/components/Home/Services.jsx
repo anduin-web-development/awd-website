@@ -7,6 +7,7 @@ import staticWebsite from '../../assets/static-website.svg';
 import customFeatures from '../../assets/custom-features.svg';
 import webApplications from '../../assets/web-applications.svg';
 import hostingMaintenance from '../../assets/hosting-maintenance.svg';
+import Anchor from '../Anchor';
 
 const Div = styled.div`
   display: flex;
@@ -18,6 +19,7 @@ const Div = styled.div`
 const Services = () => {
   return (
     <div>
+      <Anchor id="services" />
       <h2 className="title is-2 has-text-centered">Services</h2>
       <div className="columns">
         <Div className="column">

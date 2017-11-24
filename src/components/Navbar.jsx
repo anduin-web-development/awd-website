@@ -27,14 +27,14 @@ export class Navbar extends Component {
             </Link>
           </div>
           <div className="awd-navbar__links">
-            <NavLink to="/#about" className="awd-navbar__link">
-              About
-            </NavLink>
-            <NavLink to="/team" className="awd-navbar__link">
-              Team
+            <NavLink to="/#mission" className="awd-navbar__link">
+              Mission
             </NavLink>
             <NavLink to="/#services" className="awd-navbar__link">
               Services
+            </NavLink>
+            <NavLink to="/team" className="awd-navbar__link">
+              Team
             </NavLink>
             <NavLink
               to="/#contact"
