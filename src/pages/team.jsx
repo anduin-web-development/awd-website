@@ -1,14 +1,16 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import PageHeader from '../components/PageHeader';
-import Profile from '../components/Profile';
+import OmarProfile from '../components/Team/OmarProfile';
+import PaulProfile from '../components/Team/PaulProfile';
 import Section from '../components/Section';
+import paul from '../assets/paul-at-work.jpg';
 
 const Team = () => (
   <div>
     <PageHeader bgUrl="">Team</PageHeader>
     <Section containerClass="content has-text-centered">
-      <h2 className="title is-2">About Us</h2>
+      <h2 className="title is-2 has-text-white">About Us</h2>
       <p className="is-size-4">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
         assumenda iusto provident suscipit odio fugit amet magnam eveniet
@@ -17,18 +19,14 @@ const Team = () => (
       </p>
     </Section>
     <Section>
-      <div className="columns">
-        <div className="column">
-          <Profile name="Omar Malik" title="Web Developer" />
-        </div>
-        <div className="column">
-          <Profile name="Paul Newsam" title="Web Developer" />
-        </div>
-        <div className="column">
-          <Profile name="Aboli Rane" title="Business Development Specialist" />
-        </div>
-      </div>
+      <OmarProfile />
     </Section>
+    <Section>
+      <PaulProfile />
+    </Section>
+    {/* <Section>
+      <Profile name="Aboli Rane" title="Business Development Specialist" />
+    </Section> */}
   </div>
 );
 

@@ -21,6 +21,11 @@ const TemplateWrapper = ({ children }) => (
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
         },
+        {
+          rel: 'stylesheet',
+          href:
+            'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+        },
       ]}
     />
     <Navbar />
