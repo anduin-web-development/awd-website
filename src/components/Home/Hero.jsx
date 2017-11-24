@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import hero from '../../assets/hero.jpg';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo-sm.png';
 
 const Section = styled.section`
   background: url(${hero}) no-repeat center center fixed;
