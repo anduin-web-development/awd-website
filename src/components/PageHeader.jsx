@@ -12,9 +12,11 @@ const Section = styled.section`
 
 const PageHeader = props => {
   return (
-    <Section className="hero is-medium is-primary is-bold">
+    <Section className="hero is-large" bgUrl={props.bgUrl}>
       <div className="hero-body">
-        <div className="title is-1">{props.children}</div>
+        <div className="container">
+          <div className="title is-1 has-text-white">{props.children}</div>
+        </div>
       </div>
     </Section>
   );

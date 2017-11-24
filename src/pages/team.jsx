@@ -5,10 +5,11 @@ import OmarProfile from '../components/Team/OmarProfile';
 import PaulProfile from '../components/Team/PaulProfile';
 import Section from '../components/Section';
 import paul from '../assets/paul-at-work.jpg';
+import teamHero from '../assets/team__outdoors.jpg';
 
 const Team = () => (
   <div>
-    <PageHeader bgUrl="">Team</PageHeader>
+    <PageHeader bgUrl={teamHero}>Team</PageHeader>
     <Section containerClass="content has-text-centered">
       <h2 className="title is-2 has-text-white">About Us</h2>
       <p className="is-size-4">
