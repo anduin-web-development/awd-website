@@ -8,42 +8,33 @@ import customFeatures from '../../assets/custom-features.svg';
 import webApplications from '../../assets/web-applications.svg';
 import hostingMaintenance from '../../assets/hosting-maintenance.svg';
 
-const Card = styled.div``;
-
-const W = styled.div`
-  align-items: center;
+const Div = styled.div`
   display: flex;
   flex-direction: column;
-  height: 240px;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
-  padding: 20px;
-  width: 100%;
 `;
-const Wrapper = props => <W className="bg">{props.children}</W>;
 
 const Services = () => {
   return (
     <div>
       <h2 className="title is-2 has-text-centered">Services</h2>
       <div className="columns">
-        <div className="column">
-          <Wrapper>
-            <img src={consultation} alt="" />
-          </Wrapper>
+        <Div className="column">
+          <img src={consultation} alt="" width="200" height="200" />
           <div className="content">
-            <h3 className="title is-3">Consultation</h3>
+            <h3 className="title is-3 has-text-centered">Consultation</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
               harum dicta officiis quis repudiandae nemo dignissimos iure,
               aliquam inventore nesciunt accusantium quasi dolorum facere ipsam.
             </p>
           </div>
-        </div>
+        </Div>
         <div className="column">
-          <Wrapper>
+          <div>
             <img src={graphicDesign} alt="" />
-          </Wrapper>
+          </div>
           <div className="content">
             <h3 className="title is-3">Graphic Design</h3>
             <p>
@@ -54,9 +45,9 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <Wrapper>
+          <div>
             <img src={staticWebsite} alt="" />
-          </Wrapper>
+          </div>
           <div className="content">
             <h3 className="title is-3">Static Websites</h3>
             <p>
@@ -69,9 +60,9 @@ const Services = () => {
       </div>
       <div className="columns">
         <div className="column">
-          <Wrapper>
+          <div>
             <img src={customFeatures} alt="" />
-          </Wrapper>
+          </div>
           <div className="content">
             <h3 className="title is-3">Custom Features</h3>
             <p>
@@ -82,9 +73,9 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <Wrapper>
+          <div>
             <img src={webApplications} alt="" />
-          </Wrapper>
+          </div>
           <div className="content">
             <h3 className="title is-3">Web Applications</h3>
             <p>
@@ -95,9 +86,9 @@ const Services = () => {
           </div>
         </div>
         <div className="column">
-          <Wrapper>
+          <div>
             <img src={hostingMaintenance} alt="" />
-          </Wrapper>
+          </div>
           <div className="content">
             <h3 className="title is-3">Hosting & Applications</h3>
             <p>

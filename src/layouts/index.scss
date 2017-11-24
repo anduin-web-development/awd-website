@@ -4,15 +4,25 @@ $primary: #334fa7;
 $primary-darker: #101748;
 $primary-lighter: #667ec4;
 
-$atlantis: #93e342;
-$success: $atlantis;
+$secondary: #97e042;
+$success: $secondary;
 $family-primary: 'Source Sans Pro';
 
 @import '~bulma/bulma.sass';
 @import './navbar';
 
 a {
-  color: $atlantis;
+  color: $secondary;
+  &:hover {
+    color: darken($secondary, 20%);
+  }
+}
+
+.title {
+  color: $primary-darker;
+}
+.subtitle {
+  color: $primary;
 }
 
 .link {
@@ -21,14 +31,18 @@ a {
 
 .grn-underline {
   text-decoration: underline;
-  text-decoration-color: #93e342;
+  text-decoration-color: $secondary;
 }
 
 section.section:nth-of-type(odd) {
   background-color: $white-ter;
 }
 section.section:nth-of-type(even) {
-  background-color: $white-bis;
+  background-color: $white;
+}
+section.section:nth-of-type(2) {
+  color: $white;
+  background-color: $primary-darker;
 }
 
 .footer {
@@ -47,7 +61,6 @@ section.section:nth-of-type(even) {
   padding-bottom: 4rem;
 }
 
-.bg {
-  background: linear-gradient(to top right, #fafafa, #ecebf6);
-  box-shadow: 1px 1px 4px #7a74c5;
+.services-panel {
+  background-color: $primary;
 }

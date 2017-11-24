@@ -14,7 +14,11 @@ const TemplateWrapper = ({ children }) => (
       title="Anduin Web Development"
       meta={[
         { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'keywords',
+          content:
+            'web development, web design, san diego, web application, graphic design, custom web design, san diego web design, san diego web development, web developers',
+        },
       ]}
       link={[
         {
