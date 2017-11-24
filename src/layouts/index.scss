@@ -1,13 +1,9 @@
 @import '~bulma/sass/utilities/initial-variables';
 
-$primary: #0f1752;
-$primary-darker: #090135;
-$primary-darkest: #010116;
-$primary-lighter: #353170;
-$primar-lightest: #64638b;
+$primary: #334fa7;
+$primary-darker: #101748;
+$primary-lighter: #667ec4;
 
-$solitude: #ecebf6;
-$alabaster: #fafafa;
 $atlantis: #93e342;
 $success: $atlantis;
 $family-primary: 'Source Sans Pro';
@@ -19,25 +15,30 @@ a {
   color: $atlantis;
 }
 
+.link {
+  color: $primary;
+}
+
 .grn-underline {
   text-decoration: underline;
   text-decoration-color: #93e342;
 }
 
 section.section:nth-of-type(odd) {
-  background-color: $solitude;
+  background-color: $white-ter;
 }
 section.section:nth-of-type(even) {
-  background-color: $alabaster;
+  background-color: $white-bis;
 }
+
 .footer {
-  background-color: $primary;
-  color: $alabaster;
+  background-color: $primary-darker;
+  color: $white-bis;
   .title {
-    color: $alabaster;
+    color: $white-bis;
   }
   a {
-    color: $alabaster;
+    color: $white-bis;
     &:hover {
       @extend .grn-underline;
     }
