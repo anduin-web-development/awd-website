@@ -7,10 +7,12 @@ import Hero from '../components/Home/Hero';
 import Mission from '../components/Home/Mission';
 import Services from '../components/Home/Services';
 import Testimonials from '../components/Home/Testimonials';
+import ScrollInNavbar from '../components/Navbar/ScrollInNavbar';
 import styled from 'styled-components';
 
 const IndexPage = () => (
   <div>
+    <ScrollInNavbar />
     <Hero />
     <Section>
       <Mission />

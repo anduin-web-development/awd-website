@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import raf from 'raf';
 
-export default class ScrollInNav extends Component {
+export default class ScrollIn extends Component {
   static propTypes = {
     scrollInHeight: React.PropTypes.number,
   };

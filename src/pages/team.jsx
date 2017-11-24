@@ -6,9 +6,11 @@ import PaulProfile from '../components/Team/PaulProfile';
 import Section from '../components/Section';
 import paul from '../assets/paul-at-work.jpg';
 import teamHero from '../assets/team__outdoors.jpg';
+import Navbar from '../components/Navbar/Navbar';
 
 const Team = () => (
   <div>
+    <Navbar />
     <PageHeader bgUrl={teamHero}>Team</PageHeader>
     <Section containerClass="content has-text-centered">
       <h2 className="title is-2 has-text-white">About Us</h2>
