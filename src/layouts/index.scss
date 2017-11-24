@@ -13,6 +13,7 @@ $success: $atlantis;
 $family-primary: 'Source Sans Pro';
 
 @import '~bulma/bulma.sass';
+@import './navbar';
 
 a {
   color: $atlantis;

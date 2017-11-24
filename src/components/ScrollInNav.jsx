@@ -3,11 +3,11 @@ import raf from 'raf';
 
 export default class ScrollInNav extends Component {
   static propTypes = {
-    scrollInHeight: React.PropTypes.number
+    scrollInHeight: React.PropTypes.number,
   };
 
   static defaultProps = {
-    scrollInHeight: 50
+    scrollInHeight: 50,
   };
 
   fixedStyle = {
@@ -19,26 +19,26 @@ export default class ScrollInNav extends Component {
     top: 0,
     left: 0,
     right: 0,
-    zIndex: 1
+    zIndex: 3,
   };
 
   hiddenStyle = {
     WebkitTransform: 'translateY(-100%)',
     MsTransform: 'translateY(-100%)',
-    transform: 'translateY(-100%)'
+    transform: 'translateY(-100%)',
   };
 
   scrolledInStyle = {
     WebkitTransform: 'translateY(0)',
     MsTransform: 'translateY(0)',
-    transform: 'translateY(0)'
+    transform: 'translateY(0)',
   };
 
   constructor(props) {
     super(props);
 
     this.state = {
-      hidden: true
+      hidden: true,
     };
 
     this.handlingScrollUpdate = false;
@@ -50,7 +50,8 @@ export default class ScrollInNav extends Component {
     } else if (window.scrollTop !== undefined) {
       return window.scrollTop;
     } else {
-      return (document.documentElement ||
+      return (
+        document.documentElement ||
         document.body.parentNode ||
         document.body
       ).scrollTop;
@@ -68,7 +69,7 @@ export default class ScrollInNav extends Component {
     let currentScrollY = this.getScrollY();
 
     this.setState({
-      hidden: currentScrollY < this.props.scrollInHeight
+      hidden: currentScrollY < this.props.scrollInHeight,
     });
 
     this.handlingScrollUpdate = false;

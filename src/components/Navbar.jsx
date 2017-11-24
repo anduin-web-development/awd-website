@@ -1,38 +1,44 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
+import styled from 'styled-components';
+
 import ScrollInNav from './ScrollInNav';
+import logo from '../assets/logo-xs.png';
+
+const NavLink = styled(Link)`
+  color: #0f1752;
+  display: table-cell;
+  padding: 1rem;
+  vertical-align: middle;
+`;
+
+const Img = styled.img`
+  margin: 1rem;
+`;
 
 export class Navbar extends Component {
   render() {
     return (
       <ScrollInNav>
-        <nav className="navbar is-primary">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item">
-              Anduin Web Development
+        <nav className="awd-navbar">
+          <div>
+            <Link to="">
+              <Img src={logo} alt="" />
             </Link>
-            <div className="navbar-burger">
-              <span />
-              <span />
-              <span />
-            </div>
           </div>
-          <div className="navbar-menu">
-            <div className="navbar-start" />
-            <div className="navbar-end">
-              <Link to="/" className="navbar-item">
-                Home
-              </Link>
-              <Link to="/team" className="navbar-item">
-                Team
-              </Link>
-              <Link to="/pricing" className="navbar-item">
-                Pricing
-              </Link>
-              <Link to="/contact" className="navbar-item">
-                Contact
-              </Link>
-            </div>
+          <div className="awd-navbar__links">
+            <NavLink to="" className="awd-navbar__link">
+              About
+            </NavLink>
+            <NavLink to="" className="awd-navbar__link">
+              Pricing
+            </NavLink>
+            <NavLink
+              to=""
+              className="awd-navbar__link awd-navbar__link-contact"
+            >
+              Get in Touch!
+            </NavLink>
           </div>
         </nav>
       </ScrollInNav>
