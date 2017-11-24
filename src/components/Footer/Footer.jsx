@@ -1,18 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
-import github from '../assets/social/github.svg';
-import linkedin from '../assets/social/linkedin.svg';
-import twitter from '../assets/social/twitter.svg';
-
-const Img = styled.img`
-  height: 50px;
-  width: 50px;
-`;
-
-const SocialLink = styled.a`
-  margin-right: 1.5rem;
-`;
+import SocialLinks from './SocialLinks';
 
 const Footer = () => {
   return (
@@ -21,11 +10,11 @@ const Footer = () => {
         <div className="columns">
           <div className="column is-3 content">
             <h5 className="title is-5 grn-underline">Navigation</h5>
-            <Link to="/#about">About</Link>
-            <br />
-            <Link to="/team">Team</Link>
+            <Link to="/#mission">Mission</Link>
             <br />
             <Link to="/#services">Services</Link>
+            <br />
+            <Link to="/team">Team</Link>
             <br />
             <Link to="/#contact">Contact</Link>
             <br />
@@ -44,15 +33,11 @@ const Footer = () => {
           <div className="column is-3 is-offset-3">
             <h5 className="title is-5 grn-underline">Social</h5>
             <div>
-              <SocialLink href="https://github.com/anduin-web-development">
-                <Img src={github} alt="Github Icon" />
-              </SocialLink>
-              <SocialLink href="https://www.linkedin.com/company/anduin/">
-                <Img src={linkedin} alt="LinkedIn Icon" />
-              </SocialLink>
-              <SocialLink href="https://twitter.com/AnduinWeb">
-                <Img src={twitter} alt="Twitter Icon" />
-              </SocialLink>
+              <SocialLinks
+                github="https://github.com/anduin-web-development"
+                linkedin="https://www.linkedin.com/company/anduin/"
+                twitter="https://twitter.com/AnduinWeb"
+              />
             </div>
           </div>
         </div>

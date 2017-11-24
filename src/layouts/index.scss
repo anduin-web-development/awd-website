@@ -9,58 +9,12 @@ $success: $secondary;
 $family-primary: 'Source Sans Pro';
 
 @import '~bulma/bulma.sass';
+@import './base';
 @import './navbar';
+@import './footer';
 
-a {
-  color: $secondary;
-  &:hover {
-    color: darken($secondary, 20%);
-  }
-}
-
-.title {
-  color: $primary-darker;
-}
-.subtitle {
-  color: $primary;
-}
-
-.link {
-  color: $primary;
-}
 
 .grn-underline {
   text-decoration: underline;
   text-decoration-color: $secondary;
-}
-
-section.section:nth-of-type(odd) {
-  background-color: $white-ter;
-}
-section.section:nth-of-type(even) {
-  background-color: $white;
-}
-section.section:nth-of-type(2) {
-  color: $white;
-  background-color: $primary-darker;
-}
-
-.footer {
-  background-color: $primary-darker;
-  color: $white-bis;
-  .title {
-    color: $white-bis;
-  }
-  a {
-    color: $white-bis;
-    &:hover {
-      @extend .grn-underline;
-    }
-  }
-  padding-top: 5rem;
-  padding-bottom: 4rem;
-}
-
-.services-panel {
-  background-color: $primary;
 }

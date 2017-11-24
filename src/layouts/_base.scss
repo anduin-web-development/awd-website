@@ -1,0 +1,25 @@
+a {
+  color: $secondary;
+  &:hover {
+    color: darken($secondary, 20%);
+  }
+}
+.title {
+  color: $primary-darker;
+}
+.subtitle {
+  color: $primary;
+}
+.link {
+  color: $primary;
+}
+section.section:nth-of-type(odd) {
+  background-color: $white-ter;
+}
+section.section:nth-of-type(even) {
+  background-color: $white;
+}
+section.section:nth-of-type(2) {
+  color: $white;
+  background-color: $primary-darker;
+}

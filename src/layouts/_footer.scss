@@ -1,0 +1,18 @@
+.footer {
+  background-color: $primary-darker;
+  color: $white-bis;
+  .title {
+    color: $white-bis;
+  }
+  a {
+    color: $white-bis;
+    &:not(.awd-footer__social-link):hover {
+      @extend .grn-underline;
+    }
+    &.awd-footer__social-link:hover {
+      color: $secondary;
+    }
+  }
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}

@@ -12,18 +12,18 @@ const Div = styled.div`
   margin-bottom: 1.5rem;
 `;
 
-const SocialLinks = () => {
+const SocialLinks = props => {
   return (
     <Div>
-      <A href="">
+      <A href={props.linkedin}>
         <i className="fa fa-linkedin-square fa-lg" aria-hidden="true" />
         <span>&nbsp;Linked In</span>
       </A>
-      <A href="">
+      <A href={props.twitter}>
         <i className="fa fa-twitter-square fa-lg" aria-hidden="true" />
         <span>&nbsp;Twitter</span>
       </A>
-      <A href="">
+      <A href={props.github}>
         <i className="fa fa-github-square fa-lg" aria-hidden="true" />
         <span>&nbsp;Github</span>
       </A>

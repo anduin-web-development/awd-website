@@ -9,7 +9,11 @@ const PaulProfile = props => {
       <div className="column is-7 content">
         <h3 className="title is-3">Paul Newsam</h3>
         <h5 className="subtitle is-5">Web Developer</h5>
-        <SocialLinks />
+        <SocialLinks
+          linkedin="https://www.linkedin.com/in/paul-newsam/"
+          github="https://github.com/pnewsam"
+          twitter="https://twitter.com/a8ntheater"
+        />
         <div className="content">
           <p>
             Paul has a B.A. in Integrative Biology and English Literature from

@@ -4,8 +4,8 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Heel from '../components/Heel';
+import Footer from '../components/Footer/Footer';
+import Heel from '../components/Footer/Heel';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
