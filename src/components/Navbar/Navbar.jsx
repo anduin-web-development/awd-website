@@ -2,45 +2,39 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 
+import Burger from './Burger';
+import Links from './Links';
 import logo from '../../assets/logo-xs.png';
-
-const NavLink = styled(Link)`
-  color: #0f1752;
-  display: table-cell;
-  padding: 1rem;
-  vertical-align: middle;
-`;
 
 const Img = styled.img`
   margin: 1rem;
 `;
 
 export class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      isActive: false,
+    };
+  }
+
+  handleClick(e) {
+    this.setState({
+      isActive: !this.state.isActive,
+    });
+  }
+
   render() {
     return (
       <nav className="awd-navbar">
         <div>
-          <Link to="">
+          <Link to="/">
             <Img src={logo} alt="" />
           </Link>
         </div>
-        <div className="awd-navbar__links">
-          <NavLink to="/#mission" className="awd-navbar__link">
-            Mission
-          </NavLink>
-          <NavLink to="/#services" className="awd-navbar__link">
-            Services
-          </NavLink>
-          <NavLink to="/team" className="awd-navbar__link">
-            Team
-          </NavLink>
-          <NavLink
-            to="/#contact"
-            className="awd-navbar__link awd-navbar__link-contact"
-          >
-            Get in Touch!
-          </NavLink>
-        </div>
+        <Burger isActive={this.state.isActive} handleClick={this.handleClick} />
+        <Links isActive={this.state.isActive} />
       </nav>
     );
   }
