@@ -38,7 +38,7 @@ const Links = props => {
           to="/#contact"
           className="awd-navbar__link awd-navbar__link-contact"
         >
-          Get in Touch!
+          Get in Touch
         </Link>
       </div>
     );

@@ -31,6 +31,10 @@ const PaulProfile = props => {
             Ruby on Rails and React. In his spare time, he likes to read, hike,
             and write plays.
           </p>
+          <a href="mailto:paul@anduin.io">
+            <i className="fa fa-envelope fa-lg" aria-hidden="true" />
+            <span>&nbsp;Email Paul</span>
+          </a>
         </div>
       </div>
       <div className="column is-5">

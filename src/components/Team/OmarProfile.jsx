@@ -19,6 +19,10 @@ const OmarProfile = props => {
           expedita molestias ipsum itaque id porro dignissimos dolorem
           blanditiis voluptatibus, fugit earum quasi! Harum.
         </p>
+        <a href="mailto:omar@anduin.io">
+          <i className="fa fa-envelope fa-lg" aria-hidden="true" />
+          <span>&nbsp;Email Omar</span>
+        </a>
       </div>
     </div>
   );
