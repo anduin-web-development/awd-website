@@ -7,6 +7,8 @@ import Section from '../components/Section';
 import paul from '../assets/paul-at-work.jpg';
 import teamHero from '../assets/team__outdoors.jpg';
 import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import Heel from '../components/Footer/Heel';
 
 const Team = () => (
   <div>
@@ -30,6 +32,8 @@ const Team = () => (
     {/* <Section>
       <Profile name="Aboli Rane" title="Business Development Specialist" />
     </Section> */}
+    <Footer />
+    <Heel />
   </div>
 );
 

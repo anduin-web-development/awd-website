@@ -9,6 +9,8 @@ import Services from '../components/Home/Services';
 import Testimonials from '../components/Home/Testimonials';
 import ScrollInNavbar from '../components/Navbar/ScrollInNavbar';
 import styled from 'styled-components';
+import Footer from '../components/Footer/Footer';
+import Heel from '../components/Footer/Heel';
 
 const IndexPage = () => (
   <div>
@@ -34,6 +36,8 @@ const IndexPage = () => (
         </div>
       </div>
     </Section>
+    <Footer />
+    <Heel />
   </div>
 );
 

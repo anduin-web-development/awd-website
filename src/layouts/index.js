@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-import Footer from '../components/Footer/Footer';
-import Heel from '../components/Footer/Heel';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -35,8 +33,6 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     {children()}
-    <Footer />
-    <Heel />
   </div>
 );
 
