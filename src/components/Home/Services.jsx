@@ -54,38 +54,35 @@ const Services = () => {
         <div className="columns">
           <Service
             title="Consultation"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum dicta officiis quis repudiandae nemo dignissimos iure, aliquam inventore nesciunt accusantium quasi dolorum facere ipsam."
+            body="Don't know what you need? We'll help you figure it out. Our services might be perfectly suited to your needs - but if they're not, we're happy to point you in the right direction. The first coffee is on us!"
             src={consultation}
           />
           <Service
             src={graphicDesign}
             title="Graphic Design"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum dicta officiis quis repudiandae nemo dignissimos iure, aliquam inventore nesciunt accusantium quasi dolorum facere ipsam."
+            body="Designing for the web is different from designing for print. We do design in-house and we've got photographers on call, so you'll never be lacking for the perfect graphic for your website."
           />
           <Service
             src={staticWebsite}
             title="Static Websites"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus harum dicta officiis quis repudiandae nemo dignissimos
-                iure, aliquam inventore nesciunt accusantium quasi dolorum
-                facere ipsam."
+            body="If you just want to publish basic information about your business on the web, you probably want a static website. We'll work off your input and code up a site from scratch, so you get a highly custom, modern website."
           />
         </div>
         <div className="columns">
           <Service
             src={customFeatures}
             title="Custom Features"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum dicta officiis quis repudiandae nemo dignissimos iure, aliquam inventore nesciunt accusantium quasi dolorum facere ipsam."
+            body="Anything from a blog to a custom twitter-feed - if you've seen it out in the wild wild web, we can probably build it. Let us know what you're looking for, and we'll spec it out and give you an estimate."
           />
           <Service
             src={webApplications}
             title="Web Applications"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum dicta officiis quis repudiandae nemo dignissimos iure, aliquam inventore nesciunt accusantium quasi dolorum facere ipsam."
+            body="You might need something more than a simple website - a database, custom integrations with third-party services, or an admin interface. We do full-stack development, which means that we can do all of the above."
           />
           <Service
             src={hostingMaintenance}
-            title="Hosting & Applications"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum dicta officiis quis repudiandae nemo dignissimos iure, aliquam inventore nesciunt accusantium quasi dolorum facere ipsam."
+            title="Hosting & Maintenance"
+            body="If you already have a domain name and hosting, we're happy to work with what you've got. If you want to leave it to us, we can launch, secure, host, and maintain your website for a monthly fee."
           />
         </div>
       </div>

@@ -4,11 +4,11 @@ import Anchor from '../Anchor';
 
 const Mission = () => {
   return (
-    <div className="has-text-centered">
+    <div>
       <Anchor id="mission" />
-      <h2 className="title is-2 has-text-white">Mission</h2>
+      <h2 className="title is-2 has-text-white has-text-centered">Mission</h2>
       <div className="columns">
-        <div className="column is-8 is-offset-2 content is-size-4">
+        <div className="column is-10 is-offset-1 content is-size-4">
           <p>
             A business card and an address. Time was, that's all you had to
             have. These days, it's a little more complicated. You need a

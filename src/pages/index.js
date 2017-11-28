@@ -16,7 +16,7 @@ const IndexPage = () => (
   <div>
     <ScrollInNavbar />
     <Hero />
-    <Section>
+    <Section sectionClass="awd-bg-primary">
       <Mission />
     </Section>
     <Section>

@@ -16,13 +16,12 @@ const PaulProfile = props => {
         />
         <div className="content">
           <p>
-            Paul has a B.A. in Integrative Biology and English Literature from
-            U.C. Berkeley. Following graduation, he spent a few years conducting
-            biological fieldwork for organizations like USGS, Texas A&M
-            University, and Bird Conservancy of the Rockies. He was first
-            exposed to web development during a stint at a Sourcery
-            Technologies, a tech startup in San Francisco, where he led the
-            data-processing effort.
+            Paul has a B.A. in Biology and English from U.C. Berkeley. Following
+            graduation, he conducted biological surveys around the Western U.S.
+            for organizations like USGS, Texas A&M University, and Bird
+            Conservancy of the Rockies. He was first exposed to web development
+            during a stint at a Sourcery Technologies, a SaaS tech startup in
+            San Francisco, where he led the data-processing effort.
           </p>
           <p>
             He trained in web development at DevBootcamp's San Diego campus in

@@ -14,24 +14,20 @@ const Team = () => (
   <div>
     <Navbar />
     <PageHeader bgUrl={teamHero}>Team</PageHeader>
-    <Section containerClass="content has-text-centered">
-      <h2 className="title is-2 has-text-white">About Us</h2>
-      <p className="is-size-4">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-        assumenda iusto provident suscipit odio fugit amet magnam eveniet
-        repudiandae a molestias unde adipisci, accusantium cum ratione corrupti
-        expedita modi voluptate.
-      </p>
+    <Section>
+      <div className="columns">
+        <div className="column is-10 is-offset-1">
+          <OmarProfile />
+        </div>
+      </div>
     </Section>
     <Section>
-      <OmarProfile />
+      <div className="columns">
+        <div className="column is-10 is-offset-1">
+          <PaulProfile />
+        </div>
+      </div>
     </Section>
-    <Section>
-      <PaulProfile />
-    </Section>
-    {/* <Section>
-      <Profile name="Aboli Rane" title="Business Development Specialist" />
-    </Section> */}
     <Footer />
     <Heel />
   </div>
