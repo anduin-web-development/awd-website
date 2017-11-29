@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ContactForm = () => {
-  return <form name="awd-contact" method="post" action="/" data-netlify="true">
+  return <form name="awd-contact" data-netlify="true">
       <div className="field">
         <label htmlFor="" className="label">
           Name
