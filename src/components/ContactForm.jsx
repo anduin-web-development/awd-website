@@ -1,14 +1,13 @@
 import React from 'react';
 
 const ContactForm = () => {
-  return (
-    <form action="">
+  return <form name="awd-contact" method="post" action="/" data-netlify="true">
       <div className="field">
         <label htmlFor="" className="label">
           Name
         </label>
         <div className="control">
-          <input type="text" className="input" />
+          <input type="text" name="user-name" className="input" />
         </div>
       </div>
       <div className="field">
@@ -16,7 +15,7 @@ const ContactForm = () => {
           Email
         </label>
         <div className="control">
-          <input type="text" className="input" />
+          <input type="text" name="user-email" className="input" />
         </div>
       </div>
       <div className="field">
@@ -24,12 +23,11 @@ const ContactForm = () => {
           Message
         </label>
         <div className="control">
-          <textarea type="text" className="textarea" />
+          <textarea type="text" name="user-message" className="textarea" />
         </div>
       </div>
       <button className="button is-primary">Submit</button>
-    </form>
-  );
+    </form>;
 };
 
 export default ContactForm;
