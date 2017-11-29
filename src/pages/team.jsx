@@ -13,7 +13,7 @@ import Heel from '../components/Footer/Heel';
 const Team = () => (
   <div>
     <Navbar />
-    <PageHeader bgUrl={teamHero}>Team</PageHeader>
+    <PageHeader bgUrl={teamHero}>Our Team</PageHeader>
     <Section>
       <div className="columns">
         <div className="column is-10 is-offset-1">
