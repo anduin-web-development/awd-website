@@ -22,9 +22,9 @@ const IndexPage = () => (
     <Section>
       <Services />
     </Section>
-    <Section>
-      <Testimonials />
-    </Section>
+    {/* <Section> */}
+      {/* <Testimonials /> */}
+    {/* </Section> */}
     <Section>
       <Anchor id="contact" />
       <h3 className="title is-3 has-text-centered">
