@@ -34,7 +34,7 @@ export class Navbar extends Component {
           </Link>
         </div>
         <Burger isActive={this.state.isActive} handleClick={this.handleClick} />
-        <Links isActive={this.state.isActive} />
+        <Links isActive={this.state.isActive} handleClick={this.handleClick} />
       </nav>
     );
   }

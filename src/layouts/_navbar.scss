@@ -21,7 +21,7 @@
       background-color: $white-ter;
       border-bottom: solid 2px $grey-light;
     }
-    &-contact {
+    &:last-of-type {
       color: $white;
       background-color: $primary;
       border-bottom: solid 2px $primary;
@@ -69,6 +69,7 @@
   .awd-navbar {
     &__links {
       position: absolute;
+      z-index: 2;
       display: none;
       top: 65px;
       left: 0;
@@ -83,10 +84,11 @@
       &:hover {
         border-bottom: solid 2px $white;
       }
-      &-contact {
+      &:last-of-type {
+        box-shadow: 0 1px 1px $grey;
         background-color: $primary;
         &:hover {
-          border-bottom: solid 2px $primary-darker;
+          border-bottom: solid 2px $primary;
         }
       }
     }
