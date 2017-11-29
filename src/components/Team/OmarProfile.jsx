@@ -11,7 +11,7 @@ const OmarProfile = props => {
       <div className="column is-7 content">
         <h3 className="title is-3">Omar Malik</h3>
         <h5 className="subtitle is-5">Web Developer</h5>
-        <SocialLinks />
+        <SocialLinks linkedin="https://www.linkedin.com/in/omarmalikprofile/" github="https://github.com/omarcodex" twitter="https://twitter.com/omarcodex" />
         <p>
           Omar is a web developer from San Diego. Recently, he supported the
           launch of DoWhop.com, a startup based out of the EvoNexus incubator.
