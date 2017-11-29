@@ -14,16 +14,15 @@ const OmarProfile = props => {
         <SocialLinks linkedin="https://www.linkedin.com/in/omarmalikprofile/" github="https://github.com/omarcodex" twitter="https://twitter.com/omarcodex" />
         <p>
           Omar is a web developer from San Diego. Recently, he supported the
-          launch of DoWhop, a software startup based out of the EvoNexus incubator. His
-          background is in science communications, where he has worked for
-          non-profit and government clients. He has experience working across
-          media platforms including video production.
+          launch of DoWhop, a software startup based out of the EvoNexus
+          incubator. His background is in science communications, where he has
+          worked for non-profit and government clients. He has experience
+          working across media platforms including video production.
         </p>
         <p>
           He holds degrees in biology from Berkeley and environmental policy
           from Yale. At Dev Bootcamp, he gained expertise in Agile software
-          development. He likes hiking in his spare time and supporting
-          ecological sustainability.
+          development. He enjoys hiking for fun and living sustainably. 
         </p>
         <a href="mailto:omar@anduin.io">
           <i className="fa fa-envelope fa-lg" aria-hidden="true" />
