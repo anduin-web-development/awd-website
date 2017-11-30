@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import hero from '../../assets/hero.jpg';
+import heroMobile from '../../assets/team__desk.jpg';
 import logo from '../../assets/logo-sm.png';
 
 const Section = styled.section`
@@ -10,10 +11,16 @@ const Section = styled.section`
   -o-background-size: cover;
   background-size: cover;
   zindex: 20;
+  @media screen and (max-width: 500px) {
+    background: url(${heroMobile}) no-repeat center center fixed;
+  }
 `;
 
 const Div = styled.div`
   transform: translateY(-200px);
+  @media screen and (max-width: 500px) {
+    transform: translateY(-100px);
+  }
 `;
 
 const Logo = styled.div`
@@ -21,6 +28,9 @@ const Logo = styled.div`
   top: 20px;
   left: 20px;
   z-index: 2;
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 `;
 
 const Hero = () => {
