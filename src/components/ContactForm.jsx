@@ -9,7 +9,7 @@ const ContactForm = () => {
           Name
         </label>
         <div className="control">
-          <input type="text" name="user-name" value="" className="input" />
+          <input type="text" name="user-name" className="input" />
         </div>
       </div>
       <div className="field">
@@ -17,7 +17,7 @@ const ContactForm = () => {
           Email
         </label>
         <div className="control">
-          <input type="text" name="user-email" value="" className="input" />
+          <input type="text" name="user-email" className="input" />
         </div>
       </div>
       <div className="field">
@@ -25,7 +25,7 @@ const ContactForm = () => {
           Message
         </label>
         <div className="control">
-          <textarea type="text" name="user-message" value="" className="textarea" />
+          <textarea type="text" name="user-message" className="textarea" />
         </div>
       </div>
       <button className="button is-primary">Submit</button>
