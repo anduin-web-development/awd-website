@@ -14,6 +14,10 @@ $family-primary: 'Source Sans Pro';
 @import './footer';
 @import './404';
 
+body {
+  overflow-x: hidden;
+}
+
 .grn-underline {
   text-decoration: underline;
   text-decoration-color: $secondary;
