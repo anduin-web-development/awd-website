@@ -1,7 +1,14 @@
 import React from 'react';
 
 const ContactForm = () => {
-  return <form name="awd-contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+  return (
+    <form
+      action="/success"
+      name="awd-contact"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
       <input type="hidden" name="form-name" value="awd-contact" />
       <div className="field">
         <label htmlFor="" className="label">
@@ -28,7 +35,8 @@ const ContactForm = () => {
         </div>
       </div>
       <button className="button is-primary">Submit</button>
-    </form>;
+    </form>
+  );
 };
 
 export default ContactForm;

@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import styled from 'styled-components';
 
 const NotFoundPage = () => (
   <div className="awd-404__wrapper">

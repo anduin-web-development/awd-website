@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const W = styled.div`
   height: 200px;
   width: 200px;
-  border: solid 5px #1b1564;
+  border: solid 5px #334fa7;
   border-radius: 100px;
 `;
 const Wrapper = props => <W className="bg">{props.children}</W>;
