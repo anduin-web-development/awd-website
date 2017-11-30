@@ -2,9 +2,8 @@ import React from 'react';
 
 const ContactForm = () => {
   return <form name="awd-contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="awd-contact" />
       <div className="field">
-        <input type="hidden" name="form-name" value="awd-contact" />
-        <input type="hidden" type="text" name="bot-field" className="input" />
         <label htmlFor="" className="label">
           Name
         </label>
