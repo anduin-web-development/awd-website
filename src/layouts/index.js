@@ -8,17 +8,17 @@ import favicon from '../assets/favicon.ico';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Anduin Web Development"
+      title="Anduin Web Development | Websites for growing businesses in professional sectors."
       meta={[
         {
           name: 'description',
           content:
-            'Anduin Web Development - We build modern websites for growing businesses in professional sectors.',
+            'Anduin Web Development | Websites for growing businesses in professional sectors.',
         },
         {
           name: 'keywords',
           content:
-            'web development, web design, san diego, web application, graphic design, custom web design, san diego web design, san diego web development, web developers',
+            'web development, web design, san diego, web application, graphic design, custom web design, san diego web design, san diego web development, web developers, growing businesses, startups, bootstrap websites',
         },
       ]}
       link={[

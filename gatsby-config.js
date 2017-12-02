@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Anduin Web Development | Websites for growing businesses in professional sectors.`,
     url: 'https://anduin.io',
   },
   plugins: [
