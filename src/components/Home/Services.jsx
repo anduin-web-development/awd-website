@@ -31,16 +31,21 @@ const ImgWrapper = styled.div`
   margin-bottom: 1rem;
 `;
 
+const Div = styled.div`
+  box-sizing: border-box;
+  max-width: 100%;
+`;
+
 const Service = props => (
   <div className="column">
     <ContentWrapper>
       <ImgWrapper>
         <Img src={props.src} alt={props.title} />
       </ImgWrapper>
-      <div className="content">
+      <Div className="content">
         <h3 className="title is-3 has-text-centered">{props.title}</h3>
         <p>{props.body}</p>
-      </div>
+      </Div>
     </ContentWrapper>
   </div>
 );
