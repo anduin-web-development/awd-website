@@ -40,9 +40,16 @@ const Footer = () => {
                 twitter="https://twitter.com/AnduinWeb"
               />
             </div>
-            <h5 className="title is-5 grn-underline">Credits</h5>
-            With beautiful photos by&nbsp;
-            <a href="http://nhantnguyen.com/">Nhan Nguyen</a>.
+            <div className="content">
+              <h5 className="title is-5 grn-underline">Credits</h5>
+              <p>
+                Photos by the amazing&nbsp;
+                <a href="http://nhantnguyen.com/">Nhan Nguyen</a>.<br />
+                Icons designed by&nbsp;
+                <a href="https://www.freepik.com/">FreePik</a> from&nbsp;
+                <a href="https://www.flaticon.com/">FlatIcon</a>.
+              </p>
+            </div>
           </div>
         </div>
       </div>

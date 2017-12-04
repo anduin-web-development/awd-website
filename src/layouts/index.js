@@ -20,6 +20,10 @@ const TemplateWrapper = ({ children }) => (
           content:
             'web development, web design, san diego, web application, graphic design, custom web design, san diego web design, san diego web development, web developers, growing businesses, startups, bootstrap websites',
         },
+        {
+          name: 'google-site-verification',
+          content: 'x9qqE02X2EoELao6fNDY6vcozXkB55tdClz16H7zT7g',
+        },
       ]}
       link={[
         {
