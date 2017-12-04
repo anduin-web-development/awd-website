@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import hero from '../../assets/hero.jpg';
-import heroMobile from '../../assets/team__desk.jpg';
+import heroMobile from '../../assets/hero__sm.jpg';
 import logo from '../../assets/logo-sm.png';
 
 const Section = styled.section`
