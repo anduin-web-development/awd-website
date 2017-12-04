@@ -17,7 +17,7 @@ const Section = styled.section`
 `;
 
 const Div = styled.div`
-  transform: translateY(-200px);
+  transform: translateY(-25vh);
   @media screen and (max-width: 500px) {
     transform: translateY(-100px);
   }
