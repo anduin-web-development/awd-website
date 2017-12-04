@@ -14,6 +14,9 @@ const Section = styled.section`
   @media screen and (max-width: 500px) {
     background: url(${heroMobile}) no-repeat center center scroll;
   }
+  @media screen and (min-width: 501px) and (max-width: 740px) {
+    background-attachment: scroll;
+  }
 `;
 
 const Div = styled.div`
