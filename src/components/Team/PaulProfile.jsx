@@ -6,6 +6,9 @@ import paul from '../../assets/paul-at-work.jpg';
 const PaulProfile = props => {
   return (
     <div className="columns">
+      <div className="column is-5 awd-mobile-show">
+        <Mugshot src={paul} />
+      </div>
       <div className="column is-7 content">
         <h3 className="title is-3">Paul Newsam</h3>
         <h5 className="subtitle is-5">Web Developer</h5>
@@ -34,7 +37,7 @@ const PaulProfile = props => {
           </a>
         </div>
       </div>
-      <div className="column is-5">
+      <div className="column is-5 awd-mobile-hide">
         <Mugshot src={paul} />
       </div>
     </div>

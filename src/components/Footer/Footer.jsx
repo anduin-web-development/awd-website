@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="columns">
-          <div className="column is-3 content">
+          <div className="column is-3">
             <h5 className="title is-5 grn-underline">Navigation</h5>
             <Link to="/#mission">Mission</Link>
             <br />
@@ -23,14 +23,15 @@ const Footer = () => {
               Anduin Web Development is based in sunny San Diego, CA. &#9728;
             </p>
           </div>
-          <div className="column is-3 content">
+          <div className="column is-3">
             <h5 className="title is-5 grn-underline">Site</h5>
             <Link to="/terms-and-privacy">Terms & Privacy</Link>
             <br />
             <Link to="/sitemap">Sitemap</Link>
             <br />
           </div>
-          <div className="column is-3 is-offset-3">
+          <div className="column is-3" />
+          <div className="column is-3">
             <h5 className="title is-5 grn-underline">Social</h5>
             <div>
               <SocialLinks
@@ -39,6 +40,9 @@ const Footer = () => {
                 twitter="https://twitter.com/AnduinWeb"
               />
             </div>
+            <h5 className="title is-5 grn-underline">Credits</h5>
+            With beautiful photos by&nbsp;
+            <a href="http://nhantnguyen.com/">Nhan Nguyen</a>.
           </div>
         </div>
       </div>

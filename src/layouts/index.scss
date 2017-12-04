@@ -22,3 +22,16 @@ body {
   text-decoration: underline;
   text-decoration-color: $secondary;
 }
+
+.column.awd-mobile-show {
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.column.awd-mobile-hide {
+  display: block;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
