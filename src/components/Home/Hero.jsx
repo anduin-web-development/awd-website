@@ -21,6 +21,9 @@ const Div = styled.div`
   @media screen and (max-width: 500px) {
     transform: translateY(-100px);
   }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    transform: none;
+  }
   @media screen and (min-width: 501px) and (max-width: 740px) {
     display: none;
   }
