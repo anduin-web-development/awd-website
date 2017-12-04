@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
         {
           name: 'keywords',
           content:
-            'web development, web design, san diego, web application, graphic design, custom web design, san diego web design, san diego web development, web developers, growing businesses, startups, bootstrap websites',
+            'web development, web design, san diego, web application, graphic design, custom web design, san diego web design agency, san diego web development, web developers, growing businesses, startups, bootstrap websites',
         },
         {
           name: 'google-site-verification',

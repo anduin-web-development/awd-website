@@ -12,7 +12,7 @@ const Section = styled.section`
   background-size: cover;
   zindex: 20;
   @media screen and (max-width: 500px) {
-    background: url(${heroMobile}) no-repeat center center fixed;
+    background: url(${heroMobile}) no-repeat center center scroll;
   }
 `;
 
