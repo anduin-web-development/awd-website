@@ -141,7 +141,7 @@ const TermsAndPrivacy = () => {
               <p>
                 Your privacy is important to us. It is Anduin Web Development's
                 policy to respect your privacy regarding any information we may
-                collect from you across our website, .
+                collect from you across our website, http://anduin.io.
               </p>
               <p>
                 We do not request your personal information except where
