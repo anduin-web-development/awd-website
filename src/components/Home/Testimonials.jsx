@@ -23,13 +23,9 @@ const Testimonials = () => {
             </div>
             <div className="column is-9 content is-size-4">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                laborum aperiam repellendus, eligendi inventore consectetur,
-                facere explicabo officia ipsum non minus sed voluptatum
-                voluptatem dolores.
-              </p>
+              Working with Omar was awesome. He's easy to work with, executes coding sprints on-time and brings forth good ideas that enhance the project.</p>
               <p>
-                <i>Attribution</i>
+                <i>Christopher Mendoza, Porfolio Manager & FinTech Evangelist</i>
               </p>
             </div>
           </div>
