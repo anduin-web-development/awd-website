@@ -18,7 +18,7 @@ const Testimonials = () => {
           <div className="columns">
             <div className="column is-3">
               <Wrapper>
-                <img src="" alt="" />
+                <img src="https://s3-us-west-2.amazonaws.com/klient-lmwa/photos/team-photos-edited/christopher-portait-sm.jpg" alt="Photo of a client" />
               </Wrapper>
             </div>
             <div className="column is-9 content is-size-4">
@@ -29,6 +29,7 @@ const Testimonials = () => {
               </p>
             </div>
           </div>
+        {/*
           <div className="columns">
             <div className="column is-9 content is-size-4">
               <p>
@@ -47,6 +48,7 @@ const Testimonials = () => {
               </Wrapper>
             </div>
           </div>
+            */}
         </div>
       </div>
     </div>
