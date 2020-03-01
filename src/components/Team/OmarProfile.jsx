@@ -20,8 +20,7 @@ const OmarProfile = props => {
           working across media platforms including video production.
         </p>
         <p>
-          He holds degrees in biology from Berkeley and environmental policy
-          from Yale. At Dev Bootcamp, he gained expertise in Agile software
+          He has a background in biology and analyzing datasets for public policy. At Dev Bootcamp, he gained expertise in Agile software
           development. He enjoys hiking for fun and living sustainably. 
         </p>
         <a href="mailto:omar@anduin.io">
