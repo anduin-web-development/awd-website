@@ -9,7 +9,7 @@ We're web developers. But more than that, we're partners. Whether you need a sim
 We offer services ranging from consultation, to graphic design, to custom web application development.
 
 If you're a developer and are interested in getting involved, get in touch:
-<mailto:admin@anduin.io>
+<mailto:omaralimalik@gmail.com>
 
 ***
 (c) 2017 Anduin Web Development, San Diego, CA.
